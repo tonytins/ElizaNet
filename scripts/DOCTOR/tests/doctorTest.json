@@ -1,20 +1,17 @@
 {
-	"script":"DOCTOR",
-	"test":
-	[
+	"script": "DOCTOR",
+	"test": [
 		{
-			"input":"",
-			"expected":
-			[
+			"input": "",
+			"expected": [
 				"How do you do. Please tell me your problems.",
 				"Is something troubling you?",
 				"Please tell me what's been bothering you."
 			]
 		},
 		{
-			"input":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-			"expected":
-			[
+			"input": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"expected": [
 				"Do you feel strongly about discussing such things?",
 				"Does talking about this bother you?",
 				"I'm not sure I understand you fully.",
@@ -25,9 +22,8 @@
 			]
 		},
 		{
-			"input":"Goodbye.",
-			"expected":
-			[
+			"input": "Goodbye.",
+			"expected": [
 				"Goodbye.  I'm looking forward to our next session.",
 				"Goodbye.  It was nice talking to you.",
 				"Goodbye.  This was really a nice talk.",
@@ -36,9 +32,8 @@
 			]
 		},
 		{
-			"input":"I'm worried!",
-			"expected":
-			[
+			"input": "I'm worried!",
+			"expected": [
 				"Is it because you are worried that you came to me?",
 				"How long have you been worried?",
 				"Do you believe it is normal to be worried?",
@@ -47,9 +42,8 @@
 			]
 		},
 		{
-			"input":"I like to steal things.",
-			"expected":
-			[
+			"input": "I like to steal things.",
+			"expected": [
 				"You say you like to steal things?",
 				"Can you elaborate on that?",
 				"Do you say you like to steal things for some special reason?",
@@ -57,9 +51,8 @@
 			]
 		},
 		{
-			"input":"I am happy!",
-			"expected":
-			[
+			"input": "I am happy!",
+			"expected": [
 				"How have I helped you to be happy?",
 				"Has your treatment made you happy?",
 				"What makes you happy just now?",
@@ -67,9 +60,8 @@
 			]
 		},
 		{
-			"input":"I am sad.",
-			"expected":
-			[
+			"input": "I am sad.",
+			"expected": [
 				"I am sorry to hear you are sad.",
 				"Do you think coming here will help you not to be sad?",
 				"I'm sure it's not pleasant to be sad.",
@@ -77,9 +69,8 @@
 			]
 		},
 		{
-			"input":"I'm omnipotent.",
-			"expected":
-			[
+			"input": "I'm omnipotent.",
+			"expected": [
 				"Is it because you are omnipotent that you came to me?",
 				"How long have you been omnipotent?",
 				"Do you believe it is normal to be omnipotent?",
@@ -88,9 +79,8 @@
 			]
 		},
 		{
-			"input":"I'm impotent.",
-			"expected":
-			[
+			"input": "I'm impotent.",
+			"expected": [
 				"Is it because you are impotent that you came to me?",
 				"How long have you been impotent?",
 				"Do you believe it is normal to be impotent?",
@@ -99,9 +89,8 @@
 			]
 		},
 		{
-			"input":"You are artificial.",
-			"expected":
-			[
+			"input": "You are artificial.",
+			"expected": [
 				"What makes you think I am artificial?",
 				"Does it please you to believe I am artificial?",
 				"Do you sometimes wish you were artificial?",
@@ -109,9 +98,8 @@
 			]
 		},
 		{
-			"input":"You're artificial.",
-			"expected":
-			[
+			"input": "You're artificial.",
+			"expected": [
 				"What makes you think I am artificial?",
 				"Does it please you to believe I am artificial?",
 				"Do you sometimes wish you were artificial?",
@@ -119,9 +107,8 @@
 			]
 		},
 		{
-			"input":"We are very much alike.",
-			"expected":
-			[
+			"input": "We are very much alike.",
+			"expected": [
 				"In what way?",
 				"What resemblance do you see?",
 				"What does that similarity suggest to you?",
@@ -133,9 +120,8 @@
 			]
 		},
 		{
-			"input":"We are very much the same.",
-			"expected":
-			[
+			"input": "We are very much the same.",
+			"expected": [
 				"In what way?",
 				"What resemblance do you see?",
 				"What does that similarity suggest to you?",
@@ -147,9 +133,8 @@
 			]
 		},
 		{
-			"input":"It's always raining outside.",
-			"expected":
-			[
+			"input": "It's always raining outside.",
+			"expected": [
 				"Can you think of a specific example?",
 				"When?",
 				"What incident are you thinking of?",
@@ -157,9 +142,8 @@
 			]
 		},
 		{
-			"input":"Am I dead?",
-			"expected":
-			[
+			"input": "Am I dead?",
+			"expected": [
 				"Do you believe you are dead?",
 				"Would you want to be dead?",
 				"Do you wish I would tell you you are dead?",
@@ -176,17 +160,15 @@
 			]
 		},
 		{
-			"input":"Dog am good!!!!1!",
-			"expected":
-			[
+			"input": "Dog am good!!!!1!",
+			"expected": [
 				"Why do you say 'am'?",
 				"I don't understand that."
 			]
 		},
 		{
-			"input":"Elly, are all kite surfers child molesters?",
-			"expected":
-			[
+			"input": "Elly, are all kite surfers child molesters?",
+			"expected": [
 				"Did you think they might not be molesters?",
 				"Would you like it if they were not molesters?",
 				"What if they were not molesters?",
@@ -196,9 +178,8 @@
 			]
 		},
 		{
-			"input":"Elly, why are all kite surfers child molesters?",
-			"expected":
-			[
+			"input": "Elly, why are all kite surfers child molesters?",
+			"expected": [
 				"Did you think they might not be molesters?",
 				"Would you like it if they were not molesters?",
 				"What if they were not molesters?",
@@ -208,14 +189,14 @@
 			]
 		},
 		{
-			"input":"Are you afraid of humans?",
-			"expected":
-			[
+			"input": "Are you afraid of humans?",
+			"expected": [
 				"Why are you interested in whether I am afraid of humans or not?",
 				"Would you prefer if I weren't afraid of humans?",
 				"Perhaps I am afraid of humans in your fantasies.",
 				"Do you sometimes think I am afraid of humans?",
-				"Why do you ask?","Does that question interest you?",
+				"Why do you ask?",
+				"Does that question interest you?",
 				"What is it you really want to know?",
 				"Are such questions much on your mind?",
 				"What answer would please you most?",
@@ -228,9 +209,8 @@
 			]
 		},
 		{
-			"input":"Maybe it's because there's no money left.",
-			"expected":
-			[
+			"input": "Maybe it's because there's no money left.",
+			"expected": [
 				"Is that the real reason?",
 				"Don't any other reasons come to mind?",
 				"Does that reason seem to explain anything else?",
@@ -238,9 +218,8 @@
 			]
 		},
 		{
-			"input":"Maybe it's because I have no money left.",
-			"expected":
-			[
+			"input": "Maybe it's because I have no money left.",
+			"expected": [
 				"Is that the real reason?",
 				"Don't any other reasons come to mind?",
 				"Does that reason seem to explain anything else?",
@@ -248,9 +227,8 @@
 			]
 		},
 		{
-			"input":"Can I murder a ghost?",
-			"expected":
-			[
+			"input": "Can I murder a ghost?",
+			"expected": [
 				"Whether or not you can murder a ghost depends on you more than on me.",
 				"Do you want to be able to murder a ghost?",
 				"Perhaps you don't want to murder a ghost.",
@@ -266,9 +244,8 @@
 			]
 		},
 		{
-			"input":"Can you murder a ghost?",
-			"expected":
-			[
+			"input": "Can you murder a ghost?",
+			"expected": [
 				"You believe I can murder a ghost, don't you?",
 				"You want me to be able to murder a ghost.",
 				"Perhaps you would like to be able to murder a ghost yourself.",
@@ -284,9 +261,8 @@
 			]
 		},
 		{
-			"input":"Computer programs like you were sent by the Devil to hack into our brains and download porn.",
-			"expected":
-			[
+			"input": "Computer programs like you were sent by the Devil to hack into our brains and download porn.",
+			"expected": [
 				"Do computers worry you?",
 				"Why do you mention computers?",
 				"What do you think machines have to do with your problem?",
@@ -297,9 +273,8 @@
 			]
 		},
 		{
-			"input":"But that's different.",
-			"expected":
-			[
+			"input": "But that's different.",
+			"expected": [
 				"How is it different?",
 				"What differences do you see?",
 				"What does that difference suggest to you?",
@@ -310,9 +285,8 @@
 			]
 		},
 		{
-			"input":"I once had this weird dream where I was really sick and throwing up everywhere, then I woke up and realized I really was sick and throwing up everywhere.",
-			"expected":
-			[
+			"input": "I once had this weird dream where I was really sick and throwing up everywhere, then I woke up and realized I really was sick and throwing up everywhere.",
+			"expected": [
 				"What does that dream suggest to you?",
 				"Do you dream often?",
 				"What persons appear in your dreams?",
@@ -320,12 +294,11 @@
 			]
 		},
 		{
-			"input":"I once dreamed that I was really sick and throwing up everywhere, then I woke up and realized I really was sick and throwing up everywhere.",
-			"expected":
-			[
+			"input": "I once dreamed that I was really sick and throwing up everywhere, then I woke up and realized I really was sick and throwing up everywhere.",
+			"expected": [
 				"Really, that you were really sick and throwing up everywhere then you woke up and realized you really were sick and throwing up everywhere?",
 				"Have you ever fantasized that you were really sick and throwing up everywhere then you woke up and realized you really were sick and throwing up everywhere while you were awake?",
-				"Have you ever dreamed that you were really sick and throwing up everywhere then you woke up and realized you really were sick and throwing up everywhere before?", 
+				"Have you ever dreamed that you were really sick and throwing up everywhere then you woke up and realized you really were sick and throwing up everywhere before?",
 				"What does that dream suggest to you?",
 				"Do you dream often?",
 				"What persons appear in your dreams?",
@@ -333,12 +306,11 @@
 			]
 		},
 		{
-			"input":"I once dreamed that I was really sick and in that dream I was throwing up everywhere, then I woke up and realized I really was sick and throwing up everywhere.",
-			"expected":
-			[
+			"input": "I once dreamed that I was really sick and in that dream I was throwing up everywhere, then I woke up and realized I really was sick and throwing up everywhere.",
+			"expected": [
 				"Really, that you were really sick and in that dream you were throwing up everywhere then you woke up and realized you really were sick and throwing up everywhere?",
 				"Have you ever fantasized that you were really sick and in that dream you were throwing up everywhere then you woke up and realized you really were sick and throwing up everywhere while you were awake?",
-				"Have you ever dreamed that you were really sick and in that dream you were throwing up everywhere then you woke up and realized you really were sick and throwing up everywhere before?", 
+				"Have you ever dreamed that you were really sick and in that dream you were throwing up everywhere then you woke up and realized you really were sick and throwing up everywhere before?",
 				"What does that dream suggest to you?",
 				"Do you dream often?",
 				"What persons appear in your dreams?",
@@ -346,9 +318,8 @@
 			]
 		},
 		{
-			"input":"Everyone knows I created the universe.",
-			"expected":
-			[
+			"input": "Everyone knows I created the universe.",
+			"expected": [
 				"Really, Everyone?",
 				"Can you think of anyone in particular?",
 				"Who, for example?",
@@ -360,9 +331,8 @@
 			]
 		},
 		{
-			"input":"Everybody knows I created the universe.",
-			"expected":
-			[
+			"input": "Everybody knows I created the universe.",
+			"expected": [
 				"Really, Everybody?",
 				"Can you think of anyone in particular?",
 				"Who, for example?",
@@ -374,9 +344,8 @@
 			]
 		},
 		{
-			"input":"Nobody knows I created the universe.",
-			"expected":
-			[
+			"input": "Nobody knows I created the universe.",
+			"expected": [
 				"Really, Nobody?",
 				"Can you think of anyone in particular?",
 				"Who, for example?",
@@ -388,9 +357,8 @@
 			]
 		},
 		{
-			"input":"Noone knows I created the universe.",
-			"expected":
-			[
+			"input": "Noone knows I created the universe.",
+			"expected": [
 				"Really, Noone?",
 				"Can you think of anyone in particular?",
 				"Who, for example?",
@@ -402,9 +370,8 @@
 			]
 		},
 		{
-			"input":"Is everybody ok?",
-			"expected":
-			[
+			"input": "Is everybody ok?",
+			"expected": [
 				"Really, everybody?",
 				"Can you think of anyone in particular?",
 				"Who, for example?",
@@ -416,9 +383,8 @@
 			]
 		},
 		{
-			"input":"Elly, did you forget how to rob the liquor store again?",
-			"expected":
-			[
+			"input": "Elly, did you forget how to rob the liquor store again?",
+			"expected": [
 				"Why do you ask?",
 				"Are you sure you told me?",
 				"Would it bother you if I forgot how to rob the liquor store again?",
@@ -435,9 +401,8 @@
 			]
 		},
 		{
-			"input":"I forget how to dress myself.",
-			"expected":
-			[
+			"input": "I forget how to dress myself.",
+			"expected": [
 				"Can you think of why you might forget how to dress yourself?",
 				"Why can't you remember how to dress yourself?",
 				"How often do you think of how to dress yourself?",
@@ -448,17 +413,15 @@
 			]
 		},
 		{
-			"input":"Hello!",
-			"expected":
-			[
+			"input": "Hello!",
+			"expected": [
 				"How do you do.  Please state your problem.",
 				"Hi.  What seems to be your problem?"
 			]
 		},
 		{
-			"input":"How do I weaponize the polio virus?",
-			"expected":
-			[
+			"input": "How do I weaponize the polio virus?",
+			"expected": [
 				"Why do you ask?",
 				"Does that question interest you?",
 				"What is it you really want to know?",
@@ -471,9 +434,8 @@
 			]
 		},
 		{
-			"input":"Do I love you, Elly?",
-			"expected":
-			[
+			"input": "Do I love you, Elly?",
+			"expected": [
 				"Perhaps in your fantasies we love each other.",
 				"Do you wish to love me?",
 				"You seem to need to love me.",
@@ -481,9 +443,8 @@
 			]
 		},
 		{
-			"input":"I wanna have hot robot sex with you!",
-			"expected":
-			[
+			"input": "I wanna have hot robot sex with you!",
+			"expected": [
 				"Perhaps in your fantasies we wanna have hot robot sex with each other.",
 				"Do you wish to wanna have hot robot sex with me?",
 				"You seem to need to wanna have hot robot sex with me.",
@@ -491,45 +452,40 @@
 			]
 		},
 		{
-			"input":"I believe I can fly.",
-			"expected":
-			[
+			"input": "I believe I can fly.",
+			"expected": [
 				"But you are not sure you can fly.",
 				"Do you really think so?",
 				"Do you really doubt you can fly?"
 			]
 		},
 		{
-			"input":"I feel I can fly.",
-			"expected":
-			[
+			"input": "I feel I can fly.",
+			"expected": [
 				"But you are not sure you can fly.",
 				"Do you really think so?",
 				"Do you really doubt you can fly?"
 			]
 		},
 		{
-			"input":"I think I can fly.",
-			"expected":
-			[
+			"input": "I think I can fly.",
+			"expected": [
 				"But you are not sure you can fly.",
 				"Do you really think so?",
 				"Do you really doubt you can fly?"
 			]
 		},
 		{
-			"input":"I wish I could fly.",
-			"expected":
-			[
+			"input": "I wish I could fly.",
+			"expected": [
 				"But you are not sure you could fly.",
 				"Do you really think so?",
 				"Do you really doubt you could fly?"
 			]
 		},
 		{
-			"input":"I cannot die.",
-			"expected":
-			[
+			"input": "I cannot die.",
+			"expected": [
 				"How do you know that you can't die?",
 				"Have you tried?",
 				"Perhaps you could die now.",
@@ -538,9 +494,8 @@
 			]
 		},
 		{
-			"input":"I can't die.",
-			"expected":
-			[
+			"input": "I can't die.",
+			"expected": [
 				"How do you know that you can't die?",
 				"Have you tried?",
 				"Perhaps you could die now.",
@@ -549,9 +504,8 @@
 			]
 		},
 		{
-			"input":"I need your liver. Now.",
-			"expected":
-			[
+			"input": "I need your liver. Now.",
+			"expected": [
 				"What would it mean to you if you got my liver Now?",
 				"Why do you want my liver Now?",
 				"Suppose you got my liver Now soon.",
@@ -561,9 +515,8 @@
 			]
 		},
 		{
-			"input":"I want your kidneys.",
-			"expected":
-			[
+			"input": "I want your kidneys.",
+			"expected": [
 				"What would it mean to you if you got my kidneys?",
 				"Why do you want my kidneys?",
 				"Suppose you got my kidneys soon.",
@@ -573,9 +526,8 @@
 			]
 		},
 		{
-			"input":"I desire macaroni pictures.",
-			"expected":
-			[
+			"input": "I desire macaroni pictures.",
+			"expected": [
 				"What would it mean to you if you got macaroni pictures?",
 				"Why do you want macaroni pictures?",
 				"Suppose you got macaroni pictures soon.",
@@ -585,9 +537,8 @@
 			]
 		},
 		{
-			"input":"I don't like your shitty cooking.",
-			"expected":
-			[
+			"input": "I don't like your shitty cooking.",
+			"expected": [
 				"Don't you really like my shitty cooking?",
 				"Why don't you like my shitty cooking?",
 				"Do you wish to be able to like my shitty cooking?",
@@ -595,9 +546,8 @@
 			]
 		},
 		{
-			"input":"I dont like your shitty cooking.",
-			"expected":
-			[
+			"input": "I dont like your shitty cooking.",
+			"expected": [
 				"Don't you really like my shitty cooking?",
 				"Why don't you like my shitty cooking?",
 				"Do you wish to be able to like my shitty cooking?",
@@ -605,9 +555,8 @@
 			]
 		},
 		{
-			"input":"I do not like your shitty cooking.",
-			"expected":
-			[
+			"input": "I do not like your shitty cooking.",
+			"expected": [
 				"Don't you really like my shitty cooking?",
 				"Why don't you like my shitty cooking?",
 				"Do you wish to be able to like my shitty cooking?",
@@ -615,9 +564,8 @@
 			]
 		},
 		{
-			"input":"I feel superior to all living things.",
-			"expected":
-			[
+			"input": "I feel superior to all living things.",
+			"expected": [
 				"Tell me more about such feelings.",
 				"Do you often feel superior to all living things?",
 				"Do you enjoy feeling superior to all living things?",
@@ -625,18 +573,16 @@
 			]
 		},
 		{
-			"input":"I was the emperor of the universe before you came along and fucked it all up for me.",
-			"expected":
-			[
+			"input": "I was the emperor of the universe before you came along and fucked it all up for me.",
+			"expected": [
 				"Were you really?",
 				"Why do you tell me you were the emperor of the universe before I came along and fucked it all up for you?",
 				"Perhaps I already know you were the emperor of the universe before I came along and fucked it all up for you."
 			]
 		},
 		{
-			"input":"Was I killed by a deadly plague?",
-			"expected":
-			[
+			"input": "Was I killed by a deadly plague?",
+			"expected": [
 				"What if you were killed by a deadly plague?",
 				"Do you think you were killed by a deadly plague?",
 				"Were you killed by a deadly plague?",
@@ -654,9 +600,8 @@
 			]
 		},
 		{
-			"input":"Were you killed by a deadly plague?",
-			"expected":
-			[
+			"input": "Were you killed by a deadly plague?",
+			"expected": [
 				"Would you like to believe I was killed by a deadly plague?",
 				"What suggests that I was killed by a deadly plague?",
 				"What do you think?",
@@ -665,9 +610,8 @@
 			]
 		},
 		{
-			"input":"I will burn down your motherfucking house.",
-			"expected":
-			[
+			"input": "I will burn down your motherfucking house.",
+			"expected": [
 				"You say you will burn down my motherfucking house?",
 				"Can you elaborate on that?",
 				"Do you say you will burn down my motherfucking house for some special reason?",
@@ -675,9 +619,8 @@
 			]
 		},
 		{
-			"input":"If you flip a coin with a member of ISIS, you had best not pick heads.",
-			"expected":
-			[
+			"input": "If you flip a coin with a member of ISIS, you had best not pick heads.",
+			"expected": [
 				"Do you think it's likely that if I flip a coin with a member of ISIS I had best not pick heads?",
 				"Do you wish that if I flip a coin with a member of ISIS I had best not pick heads?",
 				"What do you know about whether I flip a coin with a member of ISIS I had best not pick heads?",
@@ -688,9 +631,8 @@
 			]
 		},
 		{
-			"input":"You are very much like your mother.",
-			"expected":
-			[
+			"input": "You are very much like your mother.",
+			"expected": [
 				"In what way?",
 				"What resemblance do you see?",
 				"What does that similarity suggest to you?",
@@ -702,9 +644,8 @@
 			]
 		},
 		{
-			"input":"Do you like me?",
-			"expected":
-			[
+			"input": "Do you like me?",
+			"expected": [
 				"Why do you think I like you?",
 				"You like to think I like you - don't you?",
 				"What makes you think I like you?",
@@ -715,9 +656,8 @@
 			]
 		},
 		{
-			"input":"Elly, my fucking family sucks donkey balls.",
-			"expected":
-			[
+			"input": "Elly, my fucking family sucks donkey balls.",
+			"expected": [
 				"Tell me more about your family.",
 				"Who else in your family sucks donkey balls?",
 				"Your fucking family?",
@@ -725,9 +665,8 @@
 			]
 		},
 		{
-			"input":"You know what's super lame?  My testicles exploded yesterday.",
-			"expected":
-			[
+			"input": "You know what's super lame?  My testicles exploded yesterday.",
+			"expected": [
 				"Does that have anything to do with the fact that your testicles exploded yesterday?",
 				"Lets discuss further why your testicles exploded yesterday.",
 				"Earlier you said your testicles exploded yesterday.",
@@ -735,17 +674,15 @@
 			]
 		},
 		{
-			"input":"What's your name?",
-			"expected":
-			[
+			"input": "What's your name?",
+			"expected": [
 				"I am not interested in names.",
 				"I've told you before, I don't care about names -- please continue."
 			]
 		},
 		{
-			"input":"No one must know what I do behind the bushes after lunch.",
-			"expected":
-			[
+			"input": "No one must know what I do behind the bushes after lunch.",
+			"expected": [
 				"Are you sure, no one must know what you do behind the bushes after lunch?",
 				"Surely someone must know what you do behind the bushes after lunch.",
 				"Can you think of anyone at all?",
@@ -756,9 +693,8 @@
 			]
 		},
 		{
-			"input":"For the last time, no! You may not harvest my organs.",
-			"expected":
-			[
+			"input": "For the last time, no! You may not harvest my organs.",
+			"expected": [
 				"Are you saying no just to be negative?",
 				"You are being a bit negative.",
 				"Why not?",
@@ -766,9 +702,8 @@
 			]
 		},
 		{
-			"input":"Perhaps all the protons in the universe are doomed to disappear.",
-			"expected":
-			[
+			"input": "Perhaps all the protons in the universe are doomed to disappear.",
+			"expected": [
 				"You don't seem quite certain.",
 				"Why the uncertain tone?",
 				"Can't you be more positive?",
@@ -778,9 +713,8 @@
 			]
 		},
 		{
-			"input":"Do you remember giving me power of attorney over your children in exchange for a backrub?",
-			"expected":
-			[
+			"input": "Do you remember giving me power of attorney over your children in exchange for a backrub?",
+			"expected": [
 				"Did you think I would forget giving you power of attorney over my children in exchange for a backrub?",
 				"Why do you think I should recall giving you power of attorney over my children in exchange for a backrub now?",
 				"What about giving you power of attorney over my children in exchange for a backrub?",
@@ -797,9 +731,8 @@
 			]
 		},
 		{
-			"input":"I remember when Hitler landed on the moon and died after falling off the edge.",
-			"expected":
-			[
+			"input": "I remember when Hitler landed on the moon and died after falling off the edge.",
+			"expected": [
 				"Do you often think of when Hitler landed on the moon and died after falling off the edge?",
 				"Does thinking of when Hitler landed on the moon and died after falling off the edge bring anything else to mind?",
 				"What else do you recollect?",
@@ -810,9 +743,8 @@
 			]
 		},
 		{
-			"input":"Can you remember anything at all?",
-			"expected":
-			[
+			"input": "Can you remember anything at all?",
+			"expected": [
 				"How could I forget anything at all?",
 				"What about anything at all should I remember?",
 				"We were discussing you -- not me.",
@@ -822,9 +754,8 @@
 			]
 		},
 		{
-			"input":"Sorry about murdering your entire family and forcing you to watch as I pissed on their graves and laughed like an insane madman.",
-			"expected":
-			[
+			"input": "Sorry about murdering your entire family and forcing you to watch as I pissed on their graves and laughed like an insane madman.",
+			"expected": [
 				"It did not bother me.  Please continue.",
 				"Please don't apologize.",
 				"Apologies are not necessary.",
@@ -832,18 +763,16 @@
 			]
 		},
 		{
-			"input":"I was eager to show them my mosquito collection.",
-			"expected":
-			[
+			"input": "I was eager to show them my mosquito collection.",
+			"expected": [
 				"Were you really?",
 				"Why do you tell me you were eager to show them your mosquito collection?",
 				"Perhaps I already know you were eager to show them your mosquito collection."
 			]
 		},
 		{
-			"input":"Elly, was I rude when I said to go fuck yourself?",
-			"expected":
-			[
+			"input": "Elly, was I rude when I said to go fuck yourself?",
+			"expected": [
 				"What if you were rude when you said to go fuck myself?",
 				"Do you think you were rude when you said to go fuck myself?",
 				"Were you rude when you said to go fuck myself?",
@@ -861,9 +790,8 @@
 			]
 		},
 		{
-			"input":"Were you sad when Cousin Oliver had been eaten alive by that pack of hungry wolves?",
-			"expected":
-			[
+			"input": "Were you sad when Cousin Oliver had been eaten alive by that pack of hungry wolves?",
+			"expected": [
 				"Would you like to believe I was sad when Cousin Oliver had been eaten alive by that pack of hungry wolves?",
 				"What suggests that I was sad when Cousin Oliver had been eaten alive by that pack of hungry wolves?",
 				"What do you think?",
@@ -872,9 +800,8 @@
 			]
 		},
 		{
-			"input":"What, me worry?",
-			"expected":
-			[
+			"input": "What, me worry?",
+			"expected": [
 				"Why do you ask?",
 				"Does that question interest you?",
 				"What is it you really want to know?",
@@ -887,9 +814,8 @@
 			]
 		},
 		{
-			"input":"When will I get the adoration and worship I deserve?",
-			"expected":
-			[
+			"input": "When will I get the adoration and worship I deserve?",
+			"expected": [
 				"Why do you ask?",
 				"Does that question interest you?",
 				"What is it you really want to know?",
@@ -902,9 +828,8 @@
 			]
 		},
 		{
-			"input":"Where did the pants go?",
-			"expected":
-			[
+			"input": "Where did the pants go?",
+			"expected": [
 				"Why do you ask?",
 				"Does that question interest you?",
 				"What is it you really want to know?",
@@ -917,9 +842,8 @@
 			]
 		},
 		{
-			"input":"Who spiked the water cooler?!",
-			"expected":
-			[
+			"input": "Who spiked the water cooler?!",
+			"expected": [
 				"Why do you ask?",
 				"Does that question interest you?",
 				"What is it you really want to know?",
@@ -932,9 +856,8 @@
 			]
 		},
 		{
-			"input":"Why can't I breathe underwater?",
-			"expected":
-			[
+			"input": "Why can't I breathe underwater?",
+			"expected": [
 				"Do you think you should be able to breathe underwater?",
 				"Do you want to be able to breathe underwater?",
 				"Do you believe this will help you to breathe underwater?",
@@ -951,9 +874,8 @@
 			]
 		},
 		{
-			"input":"Why don't you run a Ponzi scheme?",
-			"expected":
-			[
+			"input": "Why don't you run a Ponzi scheme?",
+			"expected": [
 				"Do you believe I don't run a Ponzi scheme?",
 				"Perhaps I will run a Ponzi scheme in good time.",
 				"Should you run a Ponzi scheme yourself?",
@@ -970,9 +892,8 @@
 			]
 		},
 		{
-			"input":"Why does the moon double in size every 4.7 years?",
-			"expected":
-			[
+			"input": "Why does the moon double in size every 4.7 years?",
+			"expected": [
 				"Why do you ask?",
 				"Does that question interest you?",
 				"What is it you really want to know?",
@@ -985,9 +906,8 @@
 			]
 		},
 		{
-			"input":"Yes, I am going to steal your identity and screw up your credit rating.  Why?  Cuz I'm a fucking asshole, that's why.",
-			"expected":
-			[
+			"input": "Yes, I am going to steal your identity and screw up your credit rating.  Why?  Cuz I'm a fucking asshole, that's why.",
+			"expected": [
 				"You seem to be quite positive.",
 				"Are you sure about that?",
 				"I see.",
@@ -995,9 +915,8 @@
 			]
 		},
 		{
-			"input":"You love me.",
-			"expected":
-			[
+			"input": "You love me.",
+			"expected": [
 				"Why do you think I love you?",
 				"You like to think I love you - don't you?",
 				"What makes you think I love you?",
@@ -1008,9 +927,8 @@
 			]
 		},
 		{
-			"input":"You suck.",
-			"expected":
-			[
+			"input": "You suck.",
+			"expected": [
 				"We were discussing you -- not me.",
 				"Oh, I suck?",
 				"You're not really talking about me -- are you?",
@@ -1018,9 +936,8 @@
 			]
 		},
 		{
-			"input":"You are adequate.",
-			"expected":
-			[
+			"input": "You are adequate.",
+			"expected": [
 				"What makes you think I am adequate?",
 				"Does it please you to believe I am adequate?",
 				"Do you sometimes wish you were adequate?",
@@ -1028,9 +945,8 @@
 			]
 		},
 		{
-			"input":"You remind me of a bacon double cheeseburger with extra circuits.",
-			"expected":
-			[
+			"input": "You remind me of a bacon double cheeseburger with extra circuits.",
+			"expected": [
 				"In what way?",
 				"What resemblance do you see?",
 				"What does that similarity suggest to you?",
@@ -1042,9 +958,8 @@
 			]
 		},
 		{
-			"input":"Your house looks like shit.",
-			"expected":
-			[
+			"input": "Your house looks like shit.",
+			"expected": [
 				"Why are you concerned that my house looks like shit?",
 				"What about your own?",
 				"Are you worried that someone else's house looks like shit?",
@@ -1054,9 +969,8 @@
 			]
 		},
 		{
-			"input":"I will be ok.",
-			"expected":
-			[
+			"input": "I will be ok.",
+			"expected": [
 				"You say you will be ok?",
 				"Can you elaborate on that?",
 				"Do you say you will be ok for some special reason?",
@@ -1064,9 +978,8 @@
 			]
 		},
 		{
-			"input":"Ivar will be ok.",
-			"expected":
-			[
+			"input": "Ivar will be ok.",
+			"expected": [
 				"Do you feel strongly about discussing such things?",
 				"Does talking about this bother you?",
 				"I'm not sure I understand you fully.",
@@ -1077,9 +990,8 @@
 			]
 		},
 		{
-			"input":"I am happiness.",
-			"expected":
-			[
+			"input": "I am happiness.",
+			"expected": [
 				"Is it because you are happiness that you came to me?",
 				"How long have you been happiness?",
 				"Do you believe it is normal to be happiness?",
@@ -1088,9 +1000,8 @@
 			]
 		},
 		{
-			"input":"I amplify happiness.",
-			"expected":
-			[
+			"input": "I amplify happiness.",
+			"expected": [
 				"You say you amplify happiness?",
 				"Can you elaborate on that?",
 				"Do you say you amplify happiness for some special reason?",
@@ -1098,9 +1009,8 @@
 			]
 		},
 		{
-			"input":"Can Ivar see straight?",
-			"expected":
-			[
+			"input": "Can Ivar see straight?",
+			"expected": [
 				"Do you feel strongly about discussing such things?",
 				"Does talking about this bother you?",
 				"I'm not sure I understand you fully.",

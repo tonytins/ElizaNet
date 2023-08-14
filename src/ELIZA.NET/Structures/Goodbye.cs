@@ -1,28 +1,27 @@
-﻿using System;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
-namespace ELIZA.NET.Structures
+namespace ElizaNet.NET.Structures;
+
+[Serializable]
+public class Goodbye
 {
-    [Serializable]
-    public class Goodbye
+    [JsonProperty("message")]
+    public string Message = null;
+
+    [JsonProperty("script")]
+    public string Script = null;
+
+    public Goodbye(string message, string script)
     {
-        [JsonProperty("message")]
-        public string Message = null;
+        Message = message;
+        Script = script;
+    }
 
-        [JsonProperty("script")]
-        public string Script = null;
+    public Goodbye() { }
 
-        public Goodbye(string message, string script)
-        {
-            Message = message;
-            Script = script;
-        }
-
-        public Goodbye() { }
-
-        public override string ToString()
-        {
-            return Message;
-        }
+    public override string ToString()
+    {
+        return Message;
     }
 }
+

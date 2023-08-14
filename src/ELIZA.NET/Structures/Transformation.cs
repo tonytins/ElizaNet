@@ -3,57 +3,57 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 using System.Linq;
 
-namespace ELIZA.NET.Structures
+namespace ElizaNet.NET.Structures;
+
+[Serializable]
+public class Transformation
 {
-    [Serializable]
-    public class Transformation
+    [JsonProperty("word")]
+    public string Word = null;
+
+    [JsonProperty("script")]
+    public string Script = null;
+
+    [JsonProperty("aliases")]
+    private string AliasesStr = null;
+
+    private List<string> Aliases = null;
+
+    public Transformation(string word, string script, string aliases)
     {
-        [JsonProperty("word")]
-        public string Word = null;
+        Word = word;
+        Script = script;
+        Aliases = aliases.Split(',').ToList();
+    }
 
-        [JsonProperty("script")]
-        public string Script = null;
+    public Transformation(string word, string script, List<string> aliases)
+    {
+        Word = word;
+        Script = script;
+        Aliases = aliases;
+    }
 
-        [JsonProperty("aliases")]
-        private string AliasesStr = null;
+    public Transformation() { }
 
-        private List<string> Aliases = null;
-
-        public Transformation(string word, string script, string aliases)
+    public List<string> GetAliases()
+    {
+        if (AliasesStr != null)
         {
-            Word = word;
-            Script = script;
-            Aliases = aliases.Split(',').ToList();
+            SetAliases(AliasesStr);
+            AliasesStr = null;
         }
 
-        public Transformation(string word, string script, List<string> aliases)
-        {
-            Word = word;
-            Script = script;
-            Aliases = aliases;
-        }
+        return Aliases;
+    }
 
-        public Transformation() { }
+    public void SetAliases(string aliases)
+    {
+        Aliases = aliases.Split(',').ToList();
+    }
 
-        public List<string> GetAliases()
-        {
-            if (AliasesStr != null)
-            {
-                SetAliases(AliasesStr);
-                AliasesStr = null;
-            }
-
-            return Aliases;
-        }
-
-        public void SetAliases(string aliases)
-        {
-            Aliases = aliases.Split(',').ToList();
-        }
-
-        public void SetAliases(List<string> aliases)
-        {
-            Aliases = aliases;
-        }
+    public void SetAliases(List<string> aliases)
+    {
+        Aliases = aliases;
     }
 }
+
